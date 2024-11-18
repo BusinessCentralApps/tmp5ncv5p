@@ -1,7 +1,10 @@
 {
-  "type": "PTE",
-  "templateUrl": "https://github.com/businesscentralapps/tmp3CudPS-PTE@main",
+  "gitHubRunner": "ubuntu-latest",
+  "doNotPublishApps": true,
   "runs-on": "ubuntu-latest",
+  "MicrosoftTelemetryConnectionString": "",
+  "type": "PTE",
   "shell": "pwsh",
-  "MicrosoftTelemetryConnectionString": ""
+  "UseCompilerFolder": true,
+  "templateUrl": "https://github.com/businesscentralapps/tmp3CudPS-PTE@main"
 }
